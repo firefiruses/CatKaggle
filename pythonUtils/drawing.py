@@ -8,8 +8,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import math
 
-size1 = 128
-size2 = 128
+size1 = 256
+size2 = 256
 train_split_size = 0.3
 
 def get_img_by_name(name):
