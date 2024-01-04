@@ -5,7 +5,9 @@ grayscale = True
 
 normalization = False
 
-train_split_size = 0.3
+rotate = True
+
+train_split_size = 0.1
 
 mean = [124.5304, 111.7974,  98.9443]
 std = [69.3189, 67.4342, 68.1056]
@@ -18,5 +20,7 @@ def get_s():
         s = s + "_gs"
     if normalization:
         s = s + "_norm"
+    if rotate:
+        s = s + "_rotation"
     s = s + "_" + str(size)
     return s
