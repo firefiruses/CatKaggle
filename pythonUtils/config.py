@@ -1,5 +1,5 @@
 
-size = 256
+size = 128
 
 grayscale = True
 
