@@ -5,9 +5,9 @@ grayscale = True
 
 normalization = False
 
-rotate = False
+rotate = True
 
-train_split_size = 0.1
+train_split_size = 0.05
 
 mean = [124.5304, 111.7974,  98.9443]
 std = [69.3189, 67.4342, 68.1056]
