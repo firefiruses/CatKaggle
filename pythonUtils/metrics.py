@@ -20,7 +20,7 @@ def cmae_one(y_real, y_pred):
     c = len(y_real)
     loss = 0
     for i in range(c):
-        loss += 
+        loss += 0
     return loss/c
 
 def cmae(dataloader_out, model):
