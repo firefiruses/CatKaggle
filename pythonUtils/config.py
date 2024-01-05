@@ -5,7 +5,7 @@ grayscale = True
 
 normalization = False
 
-rotate = True
+rotate = False
 
 train_split_size = 0.05
 
