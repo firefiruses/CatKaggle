@@ -19,7 +19,7 @@ def cmae_many(y_real, y_pred):
 def cmae_one(y_real, y_pred):
     c = len(y_real)
     loss = 0
-    for i in range(c):
+    for i in range(c): ё                                              
         loss += 0
     return loss/c
 

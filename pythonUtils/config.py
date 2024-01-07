@@ -7,7 +7,7 @@ normalization = False
 
 rotate = False
 
-train_split_size = 0.05
+train_split_size = 0.3
 
 mean = [124.5304, 111.7974,  98.9443]
 std = [69.3189, 67.4342, 68.1056]
